@@ -3,3 +3,8 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
+/* Nav styles */
+.nav-style {
+	background-color: red;
+}
