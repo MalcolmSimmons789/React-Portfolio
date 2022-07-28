@@ -4,17 +4,19 @@ import './navbar.css';
 function navbar() {
 	return (
 		<div className='nav-wrapper nav-style'>
-			<ul>
-				<li>
-					<a href=''>Home</a>
-				</li>
-				<li>
-					<a href=''>About</a>
-				</li>
-				<li>
-					<a href=''>Contact</a>
-				</li>
-			</ul>
+			<nav>
+				<ul>
+					<li>
+						<a href=''>Home</a>
+					</li>
+					<li>
+						<a>About</a>
+					</li>
+					<li>
+						<a>Contact</a>
+					</li>
+				</ul>
+			</nav>
 		</div>
 	);
 }
